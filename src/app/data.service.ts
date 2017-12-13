@@ -5,7 +5,7 @@ import * as io from 'socket.io-client';
 
 @Injectable()
 export class DataService {
-  private url = 'http://localhost:3000';
+  private url = 'http://localhost:3001';
   private socket;   
 
   private goals = new BehaviorSubject<any>(['The initial goal','Another silly life goal']);
